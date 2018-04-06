@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6a05499940f38404e9a586d0304429e8
-timeCreated: 1522997533
+timeCreated: 1522998001
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -252,7 +252,7 @@ ModelImporter:
   humanDescription:
     serializedVersion: 2
     human:
-    - boneName: Hips
+    - boneName: ground
       humanName: Hips
       limit:
         min: {x: 0, y: 0, z: 0}
