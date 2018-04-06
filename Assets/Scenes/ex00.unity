@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44878083, g: 0.49883425, b: 0.57569313, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000046, guid: 9a95521a2d11047dd825ab0bea04c45d,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -803,6 +804,34 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+    - target: {fileID: 9500000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5653dcf5b96ce4167a28c02a66011dbd, type: 2}
+    - target: {fileID: 9500000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: -0.00026008603
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.00399292
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.015812088
+      objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.015757635
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
   m_IsPrefabParent: 0
@@ -1015,14 +1044,9 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 95901178813284164, guid: bf9c58685d66449ce981c6ff871776b5,
         type: 2}
-      propertyPath: m_UpdateMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 95901178813284164, guid: bf9c58685d66449ce981c6ff871776b5,
-        type: 2}
-      propertyPath: m_CullingMode
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 6a05499940f38404e9a586d0304429e8, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf9c58685d66449ce981c6ff871776b5, type: 2}
   m_IsPrefabParent: 0
@@ -1411,13 +1435,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1288354943}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.5626689, y: -0.6206637, z: 0.060349636, w: 0.5427137}
+  m_LocalPosition: {x: 59.05, y: 79.8, z: 139.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 43.287003, y: -123.676, z: -60.403004}
 --- !u!1001 &1309607212
 Prefab:
   m_ObjectHideFlags: 0
@@ -2047,6 +2071,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: c78068908f8aadb45a12635af21fcb1d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5653dcf5b96ce4167a28c02a66011dbd, type: 2}
+    - target: {fileID: 9500000, guid: c78068908f8aadb45a12635af21fcb1d, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: edb27a59002a0b743af33db7e327ffe7, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c78068908f8aadb45a12635af21fcb1d, type: 3}
   m_IsPrefabParent: 0
